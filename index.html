@@ -1905,7 +1905,7 @@
         mensaje: document.getElementById('mensajeError')
       };
       const validators = {
-        name: value => value.trim().length >= 2,
+        nombre: value => value.trim().length >= 2,  
         email: value => /^\S+@\S+\.\S+$/.test(value),
         mensaje: v => v.trim().length > 0
       };
